@@ -163,7 +163,7 @@ section{
     width: 3.5rem;
     height: 3.5rem;
     position: fixed;
-    right: 15.1rem;
+    right: 15.3rem;
     top: 2.2rem;
     z-index: 100;
     background: #eee;
@@ -545,6 +545,10 @@ section{
 @media (max-width:550px){
     header{
         width:100vw;
+    }
+
+    .home .github img{
+        right: 16rem;
     }
 
     /* about */
